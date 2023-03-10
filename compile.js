@@ -2,7 +2,11 @@ const path = require("path");
 const solc = require("solc");
 const fs = require("fs-extra");
 
+<<<<<<< HEAD
 // Adding the path here!
+=======
+// Adding the path here, and more text
+>>>>>>> feature/new-feature
 const buildPath = path.resolve(__dirname, "ethereum", "build");
 fs.removeSync(buildPath);
 
