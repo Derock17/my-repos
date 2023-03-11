@@ -5,6 +5,9 @@ const fs = require("fs-extra");
 // Adding the path here!
 // Adding the path here, and more text
 // More more more more
+// Third Feature, test
+// new-feature-3 addition
+// new-feature-4 addition
 const buildPath = path.resolve(__dirname, "ethereum", "build");
 fs.removeSync(buildPath);
 
